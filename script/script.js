@@ -38,7 +38,8 @@ document.addEventListener('DOMContentLoaded', loadData(data))
 
 
 items.addEventListener('click', (e) =>{
-    console.log(e.target.classList.contains('btn2'));
+
+    //console.log(e.target.classList.contains('btn2'));
     if(e.target.classList.contains('btn2')){
         //console.log(e.target.dataset.id)
         let findId = e.target.dataset.id;
